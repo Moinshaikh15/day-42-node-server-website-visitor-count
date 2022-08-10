@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     font-family: Helvetica, sans-serif;
+
+    box-sizing: border-box
 }
 
 body {
@@ -17,7 +19,7 @@ body {
 
 .header {
     display: flex;
-    width: 98%;
+    width: 100vw;
     justify-content: space-between;
     background-color: rgb(111, 87, 206);
     color: white;
@@ -32,12 +34,14 @@ body {
     list-style: none;
     color: white;
     gap: 10px;
-    
+
 }
-a{
+
+a {
     text-decoration: none;
     color: white;
 }
+
 .main {
     display: flex;
     flex-direction: column;
